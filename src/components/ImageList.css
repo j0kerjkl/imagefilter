@@ -1,0 +1,28 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 10px;
+}
+
+
+
+img {
+    width: 300px;
+    height: 300px;
+    margin: 39px;
+}
+
+.modal {
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    background: lightgray;
+}
+
+.exitIcon {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: black;
+}
