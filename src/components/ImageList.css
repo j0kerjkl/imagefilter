@@ -10,14 +10,17 @@
 img {
     width: 300px;
     height: 300px;
-    margin: 39px;
+    margin: 30px;
 }
 
 .modal {
     position: absolute;
-    top: 25%;
-    left: 38%;
-    background: lightgray;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(220, 220, 220, 0.3);
+    width: auto;
+    height: auto;
 }
 
 .exitIcon {
